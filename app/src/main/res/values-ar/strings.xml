@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">إدارة التحفيظ</string>
+
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    <string name="register">تسجيل جديد</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="signup">مستخدم جديد ؟ سجل الان</string>
+    <string name="password">كلمة المرور</string>
+    <string name="conf_password">تاكيد كلمة المرور</string>
+    <string name="id">رقم الهوية</string>
+    <string name="name">اسم المستخدم كامل</string>
+    <string name="email">البريد الالكتروني</string>
+    <string name="phone">رقم الهاتف</string>
+    <string name="address">العنوان</string>
+    <string name="branch">الفرع</string>
+    <string name="date">تاريخ الميلاد</string>
+    <string name="empty_data">لا يوجد بيانات !</string>
+    <string name="empty_field">لا يمكن ترك هذا الحقل فارغا</string>
+    <string name="empty_fields">بعض الحقول فارغة</string>
+    <string name="empty_image_path">الرجاء اضافة صورة</string>
+    <string name="password_not_match">كلمة المرور غير متطابقة</string>
+    <string name="invalid_email">يرجى إدخال البريد الإلكتروني الصحيح</string>
+    <string name="isExist_email">البريد الإلكتروني موجود مسبقا</string>
+    <string name="isExist_id">رقم الهوية موجود مسبقا</string>
+    <string name="error">خطأ في الادخال ، تأكد من البيانات وحاول مجددا</string>
+    <string name="successes">تم تغيير كلمة المرور بنجاح</string>
+
+    <string name="home">الرئيسية</string>
+    <string name="centers">مراكز التحفيظ</string>
+    <string name="center">المركز</string>
+    <string name="episodes">الحلقات</string>
+    <string name="memorization_sessions">حلقات التحفيظ</string>
+    <string name="wallets">المحفظين</string>
+    <string name="admins">المشرفين</string>
+    <string name="students">الطلبة</string>
+    <string name="logout">تسجيل خروج</string>
+    <string name="logout_successfully">تم تسجيل خروجك بنجاح</string>
+    <string name="save">حفظ</string>
+    <string name="desc">الوصف</string>
+    <string name="list_episodes">قائمة الحلقات</string>
+    <string name="rate">تقييم الطالب</string>
+    <string name="task">المهام</string>
+    <string name="delete_item">حذف العنصر</string>
+    <string name="delete_item_sure">هل أنت متأكد أنك تريد حذف هذا العنصر؟</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="cancel">الغاء</string>
+    <string name="language">لغة التطبيق</string>
+    <string name="changePassword">تغيير كلمة المرور</string>
+    <string name="message_mode">تفعيل وضع الرسائل</string>
+    <string name="profile">الملف الشخصي</string>
+    <string name="old_pass">كلمة المرور القديمة</string>
+    <string name="new_pass">كلمة المرور الجديدة</string>
+    <string name="setting">الاعدادات</string>
+    <string name="firebase">تصدير البيانات الى الفيربيز</string>
+    <string name="from_date">من تاريخ</string>
+    <string name="to_date">الى تاريخ</string>
+    <string name="validity">النوع</string>
+    <string name="ads">الاعلانات</string>
+
+</resources>

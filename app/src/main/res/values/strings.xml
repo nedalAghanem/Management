@@ -1,0 +1,64 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">Memorization Management</string>
+
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="signup">New user ? Register now</string>
+    <string name="password">Password</string>
+    <string name="conf_password">Confirm Password</string>
+    <string name="id">ID Number</string>
+    <string name="name">Full Username</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="address">Address</string>
+    <string name="branch">Branch</string>
+    <string name="date">Date of Birth</string>
+    <string name="empty_data">There are no data !</string>
+    <string name="empty_field">This field cannot be left blank</string>
+    <string name="empty_fields">Some fields are empty</string>
+    <string name="empty_image_path">Please add a picture</string>
+    <string name="password_not_match">Password does not match</string>
+    <string name="invalid_email">Please enter the correct email</string>
+    <string name="isExist_email">Email already exists</string>
+    <string name="isExist_id">The ID number already exists</string>
+    <string name="error">Input error, check the data and try again</string>
+    <string name="successes">Password changed successfully</string>
+
+    <string name="home">Home</string>
+    <string name="centers">memorization centers</string>
+    <string name="center">Center</string>
+    <string name="episodes">Episodes</string>
+    <string name="memorization_sessions">Memorization Sessions</string>
+    <string name="wallets">Wallets</string>
+    <string name="admins">Admins</string>
+    <string name="students">Students</string>
+    <string name="logout">Logout</string>
+    <string name="logout_successfully">You have been successfully logged out</string>
+    <string name="save">Save</string>
+    <string name="desc">Description</string>
+    <string name="list_episodes">Episode List</string>
+    <string name="rate">Student Assessment</string>
+    <string name="task">Task</string>
+    <string name="delete_item">Delete Item</string>
+    <string name="delete_item_sure">Are you sure you want to delete this item?</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="cancel" tools:ignore="ButtonCase">cancel</string>
+    <string name="language">language</string>
+    <string name="changePassword">Change Password</string>
+    <string name="message_mode">Activate message mode</string>
+    <string name="profile">Profile</string>
+    <string name="old_pass">Old Password</string>
+    <string name="new_pass">new password</string>
+    <string name="setting">Settings</string>
+    <string name="firebase">Export data to firebase</string>
+    <string name="from_date">From date</string>
+    <string name="to_date">To date</string>
+    <string name="validity">validity</string>
+    <string name="ads">Ads</string>
+
+</resources>

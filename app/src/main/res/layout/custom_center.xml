@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardBackgroundColor="@color/colorCardBackground"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_white"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/customCenter_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/logo"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/customCenter_img_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_location"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/customCenter_tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/customCenter_image"
+            android:layout_marginHorizontal="8dp"
+            android:layout_toStartOf="@+id/customCenter_img_location"
+            android:layout_toEndOf="@+id/customCenter_image"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text=" اسم المركز " />
+
+        <TextView
+            android:id="@+id/customCenter_tv_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/customCenter_tv_name"
+            android:layout_marginHorizontal="8dp"
+            android:layout_toStartOf="@+id/customCenter_img_location"
+            android:layout_toEndOf="@+id/customCenter_image"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp"
+            tools:text="العنوان" />
+
+        <TextView
+            android:id="@+id/customCenter_tv_branch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/customCenter_tv_address"
+            android:layout_marginHorizontal="8dp"
+            android:layout_toStartOf="@+id/customCenter_img_location"
+            android:layout_toEndOf="@+id/customCenter_image"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp"
+            tools:text="@string/branch" />
+
+        <TextView
+            android:id="@+id/customCenter_tv_episodes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/customCenter_tv_branch"
+            android:layout_alignParentEnd="true"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginTop="10dp"
+            android:drawableEnd="@drawable/ic_arrow_right"
+            android:drawablePadding="10dp"
+            android:text="@string/memorization_sessions"
+            android:textAlignment="viewStart"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@style/MaterialTheme"
+    tools:context=".controller.activities.SettingActivity">
+
+    <include layout="@layout/content_app_bar_back" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/setting_tv_language"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/language"
+        app:boxStrokeColor="@color/colorBlack"
+        app:hintAnimationEnabled="true"
+        app:hintEnabled="true"
+        app:hintTextColor="@color/colorBlack">
+
+        <AutoCompleteTextView
+            android:id="@+id/setting_et_language"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:focusable="false"
+            android:inputType="textAutoComplete"
+            android:longClickable="false"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold"
+            tools:ignore="KeyboardInaccessibleWidget,LabelFor,RtlSymmetry" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/setting_tv_changePassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="20dp"
+        android:drawableEnd="@drawable/ic_arrow_right"
+        android:drawablePadding="30dp"
+        android:gravity="start"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:text="@string/changePassword"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp"
+        app:drawableTint="@color/colorBlack" />
+
+    <TextView
+        android:id="@+id/setting_tv_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="20dp"
+        android:drawableEnd="@drawable/ic_arrow_right"
+        android:drawablePadding="30dp"
+        android:gravity="start"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:text="@string/message_mode"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp"
+        app:drawableTint="@color/colorBlack" />
+
+    <TextView
+        android:id="@+id/setting_tv_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="20dp"
+        android:drawableEnd="@drawable/ic_arrow_right"
+        android:drawablePadding="30dp"
+        android:gravity="start"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:text="@string/profile"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp"
+        app:drawableTint="@color/colorBlack" />
+
+    <Button
+        android:id="@+id/setting_btn_firebase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/shape_blue"
+        android:foreground="?actionBarItemBackground"
+        android:text="@string/firebase"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite"
+        tools:ignore="UnusedAttribute" />
+
+</LinearLayout>

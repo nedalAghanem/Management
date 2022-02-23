@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/nav_search"
+        android:icon="@drawable/ic_search"
+        android:title="search"
+        app:showAsAction="ifRoom"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/nav_notification"
+        android:icon="@drawable/ic_notifications"
+        android:title="notification"
+        app:showAsAction="ifRoom"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/nav_setting"
+        android:icon="@drawable/ic_setting"
+        android:title="setting"
+        app:showAsAction="ifRoom"
+        tools:ignore="HardcodedText" />
+
+</menu>

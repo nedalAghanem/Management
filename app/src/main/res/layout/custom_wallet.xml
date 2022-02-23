@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardBackgroundColor="@color/colorCardBackground"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_white"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/customWallet_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/logo"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/customWallet_img_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_location"
+            tools:ignore="ContentDescription" />
+
+        <LinearLayout
+            android:id="@+id/customWallet_linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/customWallet_image"
+            android:layout_marginHorizontal="8dp"
+            android:layout_toStartOf="@+id/customWallet_img_location"
+            android:layout_toEndOf="@+id/customWallet_image"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/customWallet_tv_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="viewStart"
+                android:textColor="@color/colorBlack"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:text=" اسم المحفظ " />
+
+            <TextView
+                android:id="@+id/customWallet_tv_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="viewStart"
+                android:textColor="@color/colorBlack"
+                android:textSize="18sp"
+                tools:text="رقم الهاتف " />
+
+            <TextView
+                android:id="@+id/customWallet_tv_branch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="viewStart"
+                android:textColor="@color/colorBlack"
+                android:textSize="18sp"
+                tools:text="@string/branch" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/customWallet_tv_episodes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/customWallet_image"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="10dp"
+            android:drawableEnd="@drawable/ic_wallet"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:text="@string/list_episodes"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
